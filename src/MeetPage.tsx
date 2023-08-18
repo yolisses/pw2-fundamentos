@@ -1,14 +1,12 @@
 import { Contact } from "./Contact";
+import { useMeet } from "./MeetContext";
 import "./MeetPage.css";
 import { MessageList } from "./MessageList";
 import { UserInfo } from "./UserInfo";
-import { Meet } from "./types/meet";
 
-type Props = {
-  meet: Meet;
-};
+export function MeetPage() {
+  const { meet } = useMeet();
 
-export function MeetPage({ meet }: Props) {
   return (
     <div className="meet-page">
       <div className="handle-container">

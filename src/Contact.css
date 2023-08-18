@@ -29,6 +29,12 @@
   font-size: 16px;
   font-weight: 700;
 }
+.contact .submit:disabled {
+  filter: saturate(50%);
+}
+.contact .submit:active:disabled {
+  scale: unset;
+}
 
 .contact button:hover {
   filter: brightness(125%);

@@ -1,6 +1,6 @@
-import { ReactNode } from "react";
 import "./Badge.css";
+import { ChildrenProps } from "./ChildrenProps";
 
-export function Badge({ children }: { children: ReactNode }) {
+export function Badge({ children }: ChildrenProps) {
   return <div className="badge">{children}</div>;
 }
