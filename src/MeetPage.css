@@ -1,0 +1,16 @@
+.meet-page {
+  gap: 100px;
+  padding-inline: 56px;
+  padding-block: 24px;
+}
+
+.meet-page .handle {
+  height: 68px;
+  width: 168px;
+  background: #e5d8ea;
+  border-radius: 9999px;
+}
+
+.handle-container {
+  align-items: center;
+}

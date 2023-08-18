@@ -1,0 +1,39 @@
+.contact {
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.contact .text {
+  padding-inline: 20px;
+  padding-block: 10px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 29px;
+  border-radius: 12px;
+  background: #f5edf7;
+  flex: 1;
+}
+
+.contact .text::placeholder {
+  color: #372d3b;
+}
+
+.contact .submit {
+  padding-inline: 20px;
+  padding-block: 10px;
+  color: white;
+  border-radius: 12px;
+  background: #00875f;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.contact button:hover {
+  filter: brightness(125%);
+}
+
+.contact button {
+  background: transparent;
+}

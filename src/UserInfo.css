@@ -1,0 +1,24 @@
+.car-name {
+  font-size: 24.657px;
+  font-weight: 500;
+}
+
+.car-number {
+  font-size: 41.096px;
+  font-weight: 700;
+}
+
+.user-info-container {
+  flex-direction: column;
+}
+
+.user-info-name {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+@media (min-width: 768px) {
+  .user-info-container {
+    flex-direction: row;
+  }
+}
